@@ -1,0 +1,110 @@
+body {
+	background: #EEE;
+}
+
+#content {
+	background: white;
+	border: 1px solid #CCC;
+	padding: 12px;
+	overflow: scroll;
+}
+
+#brand {
+	float: left;
+	font-weight: 300;
+	margin: 0;
+}
+
+.search-form {
+	margin: 0 5px;
+}
+
+.search-form form {
+	margin: 0;
+}
+
+.btn-menu {
+    margin: 4px 5px 0 0;
+    float: right;
+}
+
+.btn-menu a, .btn-menu input {
+	padding: 7px 16px !important;
+	/*border-radius: 0 !important;*/
+}
+
+.btn, textarea, input[type], button, .model-list {
+	/*border-radius: 0;*/
+}
+
+.model-list {
+	/*border-radius: 0;*/
+}
+
+.nav-pills li > a {
+	/*border-radius: 0;*/
+}
+
+.select2-container .select2-choice {
+	/*border-radius: 0;*/
+}
+
+.login-block {
+	margin-top: 100px;
+}
+
+.wrapper {
+	min-width: 1080px;
+}
+
+
+.sign-page {
+	margin: 80px auto 40px;
+}
+
+.page-center .hd .logo, .sign-page .hd .logo {
+	width: 190px;
+	height: 80px;
+	margin: 0 auto 50px;
+}
+
+.page-center .hd .logo a, .sign-page .hd .logo a {
+	display: block;
+	height: 100%;
+	background-image: url("/static/images/patap.png");
+	background-repeat: no-repeat;
+	background-size: 190px auto;
+	background-position: 0 0;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#page-signin .sign-page .bd {
+	width: 380px;
+}
+
+.page-center .bd, .sign-page .bd {
+	width: 318px;
+	margin: 0 auto;
+	/*text-align: center;*/
+}
+
+#page-signin .sigin-section {
+	position: relative;
+	margin: 15px 0;
+	padding: 36px 30px 20px;
+	background-color: #fff;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+	border-radius: 4px;
+}
+.sigin-section  ul li {
+	list-style-type: none;
+	color: #EF4F2B;
+}
+
+/*.form-control:focus {*/
+  /*border-color: #EF4F2B;*/
+  /*outline: 0;*/
+  /*-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(239, 79, 43, .6);*/
+          /*box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(239, 79, 43, .6);*/
+/*}*/

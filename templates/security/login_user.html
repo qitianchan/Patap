@@ -1,0 +1,31 @@
+{% extends "base.html"%}
+{% from "security/_macros.html" import render_field, render_field_with_errors, render_checkbox_field %}
+{% include "security/_messages.html" %}
+{% block title %}
+<title>Patap-Login</title>
+{% endblock %}
+{% block body %}
+<div class="wrapper">
+  <div id="page-signin" class="page">
+    <div class="sign-page">
+      <div class="hd">
+        <h1 class="logo">
+          <a href="/">sdaf</a>
+        </h1>
+      </div> <!-- /hd -->
+      <div class="bd">
+        <div class="sigin-section">
+          <form action="{{ url_for_security('login') }}" method="POST" name="login_user_form">
+                {{ login_user_form.hidden_tag() }}
+                {{ render_field_with_errors(login_user_form.email) }}
+                {{ render_field_with_errors(login_user_form.password) }}
+                {{ render_checkbox_field(login_user_form.remember) }}
+                {{ render_field(login_user_form.next) }}
+                {{ render_field(login_user_form.submit, class="btn btn-primary") }}
+            </form>
+        </div>
+      </div>
+    </div> <!-- /sign-page -->
+  </div>
+</div>
+{% endblock %}
